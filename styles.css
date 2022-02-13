@@ -1,0 +1,41 @@
+::selection {
+    color: black;
+    background-color: rgb(255, 216, 157);
+}
+
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+.btn {
+    margin: 1%;
+    text-align: left;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgb(235, 226, 226);
+    background-color:rgb(166, 202, 255);
+    color: black;
+    width: 9%;
+}
+.btn:hover {
+    transition-property: width, opacity;
+    transition-duration: 3s;
+    transition-duration: 0.8s;
+    width: 12%;
+    opacity: 35%;
+}
+.social {
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: left;
+    margin-left: 35%;
+}
