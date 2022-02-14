@@ -61,3 +61,22 @@ h1 {
     margin-left: 20%;
 }
 
+@media (min-width: none) and (max-width: 200px) and (max-width: 600px) {
+    .btn {
+        font-size: 8px;
+        margin: 1%;
+        text-align: right;
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px rgb(235, 226, 226);
+        background-color:rgb(166, 202, 255);
+        color: black;
+        width: 12%;
+    }
+    .btn:hover {
+        transition-property: width, opacity;
+        transition-duration: 3s;
+        transition-duration: 0.8s;
+        width: 15%;
+        opacity: 35%;
+    }
+}
