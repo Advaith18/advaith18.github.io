@@ -61,7 +61,7 @@ h1 {
     margin-left: 20%;
 }
 
-@media (min-width: 200px) and (max-width: 600px) {
+@media (min-width: 200px) and (max-width: 800px) {
     .btn {
         font-size: 8px;
         margin: 1%;
