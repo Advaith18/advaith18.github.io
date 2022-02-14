@@ -17,6 +17,7 @@ h1 {
 
 
 .btn {
+    font-size: 5px;
     margin: 1%;
     text-align: left;
     border-radius: 4px;
@@ -61,11 +62,11 @@ h1 {
     margin-left: 20%;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 400px) {
     .btn {
         font-size: 8px;
         margin: 1%;
-        text-align: right;
+        text-align: left;
         border-radius: 4px;
         box-shadow: 2px 2px 2px rgb(235, 226, 226);
         background-color:rgb(166, 202, 255);
@@ -77,6 +78,48 @@ h1 {
         transition-duration: 3s;
         transition-duration: 0.8s;
         width: 15%;
+        opacity: 35%;
+    }
+}
+
+
+
+@media (max-width: 300px) {
+    .btn {
+        font-size: 6px;
+        margin: 1%;
+        text-align: left;
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px rgb(235, 226, 226);
+        background-color:rgb(166, 202, 255);
+        color: black;
+        width: 12%;
+    }
+    .btn:hover {
+        transition-property: width, opacity;
+        transition-duration: 3s;
+        transition-duration: 0.8s;
+        width: 15%;
+        opacity: 35%;
+    }
+}
+
+@media (max-width: 200px) {
+    .btn {
+        font-size: 6px;
+        margin: 1%;
+        text-align: left;
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px rgb(235, 226, 226);
+        background-color:rgb(166, 202, 255);
+        color: black;
+        width: 13%;
+    }
+    .btn:hover {
+        transition-property: width, opacity;
+        transition-duration: 3s;
+        transition-duration: 0.8s;
+        width: 16%;
         opacity: 35%;
     }
 }
