@@ -8,6 +8,11 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 h1 {
     font-size: 30px;
     font-weight: bold;
@@ -15,9 +20,8 @@ h1 {
     text-align: center;
 }
 
-
 .btn {
-    font-size: 5px;
+    font-size: 10px;
     margin: 1%;
     text-align: left;
     border-radius: 4px;
@@ -62,22 +66,15 @@ h1 {
     margin-left: 20%;
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 800px) {
     .btn {
-        font-size: 8px;
-        margin: 1%;
-        text-align: left;
-        border-radius: 4px;
-        box-shadow: 2px 2px 2px rgb(235, 226, 226);
-        background-color:rgb(166, 202, 255);
-        color: black;
-        width: 12%;
+        font-size: 0px;
+        width: 15%;
     }
     .btn:hover {
-        transition-property: width, opacity;
-        transition-duration: 3s;
-        transition-duration: 0.8s;
-        width: 15%;
-        opacity: 35%;
+        width: 18%;
+    }
+    .flex {
+        flex-direction: column;
     }
 }
