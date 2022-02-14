@@ -17,6 +17,7 @@ h1 {
 
 
 .btn {
+    padding: 5px;
     margin: 1%;
     text-align: left;
     border-radius: 4px;
@@ -60,3 +61,18 @@ h1 {
     text-align: left;
     margin-left: 20%;
 }
+
+@media (max-width: 810px){
+    .btn {
+        padding: 5px;
+        font-size: 9px;
+        margin: 1%;
+        text-align: left;
+        border-radius: 4px;
+        box-shadow: 2px 2px 2px rgb(235, 226, 226);
+        background-color:rgb(166, 202, 255);
+        color: black;
+        width: 9%;
+
+    }
+}   
