@@ -89,14 +89,14 @@ h1 {
         font-size: 11px;
     }
     .btn {
-        font-size: 2px;
+        font-size: 5px;
         margin: 1%;
         text-align: left;
         border-radius: 4px;
         box-shadow: 2px 2px 2px rgb(235, 226, 226);
         background-color:rgb(166, 202, 255);
         color: black;
-        width: 55%;
+        width: 15%;
     }
     .btn:hover {
         transition-property: width, opacity;
